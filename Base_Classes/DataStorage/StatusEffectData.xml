@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Effects>
+  <Effect>
+    <ID>1</ID>
+    <Name>Poison</Name>
+    <Stacks>true</Stacks>
+    <MaxStackSize>10</MaxStackSize>
+    <Refreshes>true</Refreshes>
+    <ShowUpInStatusBar>true</ShowUpInStatusBar>
+    <Priority>1</Priority>
+    <ErasePriorityLevels>
+      <Priority>5</Priority>
+      <Priority>6</Priority>
+    </ErasePriorityLevels>
+    <Icon>poison_icon</Icon>
+    <Description>This is the poison effect.</Description>
+    <EffectCoroutine>PoisonCoroutine</EffectCoroutine>
+    <RemoveEffect>RemovePoisonEffect</RemoveEffect>
+  </Effect>
+  <Effect>
+    <ID>2</ID>
+    <Name>Burn</Name>
+    <Stacks>true</Stacks>
+    <MaxStackSize>5</MaxStackSize>
+    <Refreshes>true</Refreshes>
+    <ShowUpInStatusBar>true</ShowUpInStatusBar>
+    <Priority>2</Priority>
+    <ErasePriorityLevels>
+      <Priority>4</Priority>
+    </ErasePriorityLevels>
+    <Icon>burn_icon</Icon>
+    <Description>This is the burn effect.</Description>
+    <EffectCoroutine>BurnCoroutine</EffectCoroutine>
+    <RemoveEffect>RemoveBurnEffect</RemoveEffect>
+  </Effect>
+  <Effect>
+    <ID>3</ID>
+    <Name>Stun</Name>
+    <Stacks>false</Stacks>
+    <MaxStackSize>1</MaxStackSize>
+    <Refreshes>true</Refreshes>
+    <ShowUpInStatusBar>true</ShowUpInStatusBar>
+    <Priority>4</Priority>
+    <ErasePriorityLevels>
+      <Priority>1</Priority>
+    </ErasePriorityLevels>
+    <Icon>stun_icon</Icon>
+    <Description>This is the stun effect.</Description>
+    <EffectCoroutine>StunCoroutine</EffectCoroutine>
+    <RemoveEffect>RemoveStunEffect</RemoveEffect>
+  </Effect>
+</Effects>
